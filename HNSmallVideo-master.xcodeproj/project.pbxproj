@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		420FFBEBB5667C3EED8B4820 /* libPods-HNSmallVideo-master.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D517420C985CAD76B1802F2 /* libPods-HNSmallVideo-master.a */; };
+		92DA42691F452CAB002FEEFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DA42681F452CAB002FEEFE /* main.m */; };
+		92DA426C1F452CAB002FEEFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DA426B1F452CAB002FEEFE /* AppDelegate.m */; };
+		92DA426F1F452CAB002FEEFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DA426E1F452CAB002FEEFE /* ViewController.m */; };
+		92DA42721F452CAB002FEEFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DA42701F452CAB002FEEFE /* Main.storyboard */; };
+		92DA42741F452CAB002FEEFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92DA42731F452CAB002FEEFE /* Assets.xcassets */; };
+		92DA42771F452CAB002FEEFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DA42751F452CAB002FEEFE /* LaunchScreen.storyboard */; };
+		92DA42901F45317A002FEEFE /* FamilyTripSmallVideoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DA428D1F45317A002FEEFE /* FamilyTripSmallVideoVC.m */; };
+		92DA42911F45317A002FEEFE /* MeiYanFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DA428F1F45317A002FEEFE /* MeiYanFilter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D517420C985CAD76B1802F2 /* libPods-HNSmallVideo-master.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HNSmallVideo-master.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F01902A80454D0DD3C6BB43 /* Pods-HNSmallVideo-master.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HNSmallVideo-master.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HNSmallVideo-master/Pods-HNSmallVideo-master.debug.xcconfig"; sourceTree = "<group>"; };
+		8BB694B02343F304613459CA /* Pods-HNSmallVideo-master.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HNSmallVideo-master.release.xcconfig"; path = "Pods/Target Support Files/Pods-HNSmallVideo-master/Pods-HNSmallVideo-master.release.xcconfig"; sourceTree = "<group>"; };
+		92DA42641F452CAB002FEEFE /* HNSmallVideo-master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HNSmallVideo-master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92DA42681F452CAB002FEEFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92DA426A1F452CAB002FEEFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		92DA426B1F452CAB002FEEFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		92DA426D1F452CAB002FEEFE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		92DA426E1F452CAB002FEEFE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		92DA42711F452CAB002FEEFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92DA42731F452CAB002FEEFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92DA42761F452CAB002FEEFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92DA42781F452CAB002FEEFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92DA428C1F45317A002FEEFE /* FamilyTripSmallVideoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FamilyTripSmallVideoVC.h; sourceTree = "<group>"; };
+		92DA428D1F45317A002FEEFE /* FamilyTripSmallVideoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FamilyTripSmallVideoVC.m; sourceTree = "<group>"; };
+		92DA428E1F45317A002FEEFE /* MeiYanFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeiYanFilter.h; sourceTree = "<group>"; };
+		92DA428F1F45317A002FEEFE /* MeiYanFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeiYanFilter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92DA42611F452CAB002FEEFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420FFBEBB5667C3EED8B4820 /* libPods-HNSmallVideo-master.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92DA425B1F452CAB002FEEFE = {
+			isa = PBXGroup;
+			children = (
+				92DA42661F452CAB002FEEFE /* HNSmallVideo-master */,
+				92DA42651F452CAB002FEEFE /* Products */,
+				9DF68575FC9244F16B0E550C /* Pods */,
+				C5071C8CDEEFD5EDA52B2242 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		92DA42651F452CAB002FEEFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92DA42641F452CAB002FEEFE /* HNSmallVideo-master.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92DA42661F452CAB002FEEFE /* HNSmallVideo-master */ = {
+			isa = PBXGroup;
+			children = (
+				92DA428B1F45317A002FEEFE /* 小视频1 */,
+				92DA426A1F452CAB002FEEFE /* AppDelegate.h */,
+				92DA426B1F452CAB002FEEFE /* AppDelegate.m */,
+				92DA426D1F452CAB002FEEFE /* ViewController.h */,
+				92DA426E1F452CAB002FEEFE /* ViewController.m */,
+				92DA42701F452CAB002FEEFE /* Main.storyboard */,
+				92DA42731F452CAB002FEEFE /* Assets.xcassets */,
+				92DA42751F452CAB002FEEFE /* LaunchScreen.storyboard */,
+				92DA42781F452CAB002FEEFE /* Info.plist */,
+				92DA42671F452CAB002FEEFE /* Supporting Files */,
+			);
+			path = "HNSmallVideo-master";
+			sourceTree = "<group>";
+		};
+		92DA42671F452CAB002FEEFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92DA42681F452CAB002FEEFE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92DA428B1F45317A002FEEFE /* 小视频1 */ = {
+			isa = PBXGroup;
+			children = (
+				92DA428C1F45317A002FEEFE /* FamilyTripSmallVideoVC.h */,
+				92DA428D1F45317A002FEEFE /* FamilyTripSmallVideoVC.m */,
+				92DA428E1F45317A002FEEFE /* MeiYanFilter.h */,
+				92DA428F1F45317A002FEEFE /* MeiYanFilter.m */,
+			);
+			path = "小视频1";
+			sourceTree = "<group>";
+		};
+		9DF68575FC9244F16B0E550C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F01902A80454D0DD3C6BB43 /* Pods-HNSmallVideo-master.debug.xcconfig */,
+				8BB694B02343F304613459CA /* Pods-HNSmallVideo-master.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C5071C8CDEEFD5EDA52B2242 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D517420C985CAD76B1802F2 /* libPods-HNSmallVideo-master.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92DA42631F452CAB002FEEFE /* HNSmallVideo-master */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92DA427B1F452CAB002FEEFE /* Build configuration list for PBXNativeTarget "HNSmallVideo-master" */;
+			buildPhases = (
+				BC1437F6D2A52C799D9BB850 /* [CP] Check Pods Manifest.lock */,
+				92DA42601F452CAB002FEEFE /* Sources */,
+				92DA42611F452CAB002FEEFE /* Frameworks */,
+				92DA42621F452CAB002FEEFE /* Resources */,
+				6F18608DEE915846B071C1F0 /* [CP] Embed Pods Frameworks */,
+				7E08AA9809F8D7196891BEC6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HNSmallVideo-master";
+			productName = "HNSmallVideo-master";
+			productReference = 92DA42641F452CAB002FEEFE /* HNSmallVideo-master.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92DA425C1F452CAB002FEEFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "星道三好";
+				TargetAttributes = {
+					92DA42631F452CAB002FEEFE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = D4GZ4G6599;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 92DA425F1F452CAB002FEEFE /* Build configuration list for PBXProject "HNSmallVideo-master" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92DA425B1F452CAB002FEEFE;
+			productRefGroup = 92DA42651F452CAB002FEEFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92DA42631F452CAB002FEEFE /* HNSmallVideo-master */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92DA42621F452CAB002FEEFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DA42771F452CAB002FEEFE /* LaunchScreen.storyboard in Resources */,
+				92DA42741F452CAB002FEEFE /* Assets.xcassets in Resources */,
+				92DA42721F452CAB002FEEFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F18608DEE915846B071C1F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HNSmallVideo-master/Pods-HNSmallVideo-master-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E08AA9809F8D7196891BEC6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HNSmallVideo-master/Pods-HNSmallVideo-master-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC1437F6D2A52C799D9BB850 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92DA42601F452CAB002FEEFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DA426F1F452CAB002FEEFE /* ViewController.m in Sources */,
+				92DA42901F45317A002FEEFE /* FamilyTripSmallVideoVC.m in Sources */,
+				92DA42911F45317A002FEEFE /* MeiYanFilter.m in Sources */,
+				92DA426C1F452CAB002FEEFE /* AppDelegate.m in Sources */,
+				92DA42691F452CAB002FEEFE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92DA42701F452CAB002FEEFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92DA42711F452CAB002FEEFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92DA42751F452CAB002FEEFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92DA42761F452CAB002FEEFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92DA42791F452CAB002FEEFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		92DA427A1F452CAB002FEEFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92DA427C1F452CAB002FEEFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F01902A80454D0DD3C6BB43 /* Pods-HNSmallVideo-master.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D4GZ4G6599;
+				INFOPLIST_FILE = "HNSmallVideo-master/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xing6688.manager-system.HNSmallVideo-master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		92DA427D1F452CAB002FEEFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BB694B02343F304613459CA /* Pods-HNSmallVideo-master.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D4GZ4G6599;
+				INFOPLIST_FILE = "HNSmallVideo-master/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xing6688.manager-system.HNSmallVideo-master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92DA425F1F452CAB002FEEFE /* Build configuration list for PBXProject "HNSmallVideo-master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DA42791F452CAB002FEEFE /* Debug */,
+				92DA427A1F452CAB002FEEFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92DA427B1F452CAB002FEEFE /* Build configuration list for PBXNativeTarget "HNSmallVideo-master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DA427C1F452CAB002FEEFE /* Debug */,
+				92DA427D1F452CAB002FEEFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92DA425C1F452CAB002FEEFE /* Project object */;
+}
